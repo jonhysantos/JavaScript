@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: blue;
+}
+
+header {
+    color: white;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+section {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 500px;
+    color: black;
+}
+
+div.msg2 {
+    text-align: center;
+    font-size: 2em;
+}
+
+div#msg {
+    text-align: center;
+    margin: 10px;
+}
+
+div#imagem {
+    background-image: url(./imagens/evening);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 50%;
+    width: 300px;
+    height: 200px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}

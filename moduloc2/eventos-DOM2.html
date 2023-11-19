@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Jonhy Alberto</h1>
+        <p>Desenvolvedor Front-end</p>
+    </header>
+    <div>
+        <label for="n1">Digite um número </label>
+        <br>
+        <input type="number" name="n1" id="n1"  >
+        <br>
+        <label for="n2">Digite outro número</label> <br>
+        <input type="number" name="n2" id="n2" required >
+        <br>
+        <input type="button" value="Somar" onclick="somar()">
+    </div>
+    <div id="res">
+        0
+    </div>
+</body>
+<script src="DOM.js"></script>
+</html>
