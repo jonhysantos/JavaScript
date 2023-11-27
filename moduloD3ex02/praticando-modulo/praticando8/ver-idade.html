@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,18 +9,22 @@
 <body>
     <header>
         <h1>Jonhy Alberto</h1>
-        <p>Desenvolvedor Front-end/<p>
+        <p>Desenvolvedor Front-end</p>
     </header>
     <section>
         <div>
-            <h2>Verificador de idade</h2>
+            <h2>
+                Calculadora de idade
+            </h2>
             <p>
-                <label for="txtano">Ano de nascimento </label>
-                <input type="number" name="txtano" id="txtano">
+                <label for="txtano">Ano de nascimento: </label>
+                <input type="number" name="txtano" id="txtano" placeholder="Ano de nascimento">
             </p>
-            <p><strong>Sexo:</strong></p>
+            <h3>
+                Sexo:
+            </h3>
             <p>
-                <label for="mas">Masculino</label>
+                <label for="mas">Masculino </label>
                 <input type="radio" name="radsex" id="mas" checked>
             </p>
             <p>
@@ -28,11 +32,13 @@
                 <input type="radio" name="radsex" id="fem">
             </p>
             <p>
-                <label for="out">Outro:</label>
-                <input type="radio" name="radsex" id="out">
-                <input type="text" name="radsex" id="hide">
+                <label for="out">Outro: </label>
+                <input type="radio" name="radsex" id="out" onclick="see()">
+                <input type="text" name="hide" id="hide">
             </p>
-            <button>Verificar</button>
+            <button>
+                Verificar
+            </button>
 
         </div>
         <div id="res">
@@ -42,6 +48,6 @@
     <footer>
         <p>Criado e desenvolvido por Jonhy Alberto</p>
     </footer>
-    <script src="ver-idade.js"></script>
 </body>
+<script src="ver-idade.js"></script>
 </html>
