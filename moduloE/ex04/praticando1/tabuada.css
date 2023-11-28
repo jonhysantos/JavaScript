@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    margin: 10px;
+    padding: 10px;
+
+}
+
+section > div {
+    font-size: 1.4em;
+    background-color: hsl(199, 61%, 50%);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.32);
+    color: white;
+}
+
+section > div > h2 {
+    margin: 10px;
+    padding: 10px;
+}
+
+section > div > p {
+    padding: 5px;
+    margin: 5px;
+}
+
+section > div > button {
+    width: 150px;
+    height: 25px;
+    margin: 10px;
+}
+
+section > div#hide{
+    display: none;
+}
+
+footer{
+    background-color: dodgerblue;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+}
