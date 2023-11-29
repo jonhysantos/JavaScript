@@ -11,6 +11,7 @@ function Tabuada(){
         tab.style.padding = '15px'
         tab.style.textAlign = 'center'
         tab.style.text = 'justify'
+        tab.innerHTML = ''
         let n = Number(num.value)
         let c = 1
         let hide = document.querySelector('#hide')

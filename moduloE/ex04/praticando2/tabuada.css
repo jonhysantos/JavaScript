@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+div{
+    background-color: rgb(25, 149, 107);
+    color: white;
+    margin: 20px;
+    font-size: 1.6em;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.321);
+    padding: 15px;
+}
+
+div#hide{
+    display: none;
+    font-size: 1.6em;
+}
+
+div#hide > select#seltab {
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+}
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+}

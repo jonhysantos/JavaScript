@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+div {
+    background-color: rgb(0, 148, 0);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 15px;
+    font-size: 1.6em;
+}
+
+section > div > p {
+    padding: 5px;
+}
+
+section > div > button {
+    width: 150px;
+    padding: 3px;
+}
+
+section > div#res{
+    display: none;
+}
+
+footer {
+    background: dodgerblue;
+    color: white;
+    padding: 5px;
+}
