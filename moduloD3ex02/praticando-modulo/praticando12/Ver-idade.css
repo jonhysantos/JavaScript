@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+section > div {
+    background-color: darkgreen;
+    color: white;
+    padding: 15px;
+    font-size: 1.6em;
+    border-radius: 10px;
+    margin: 15px;
+}
+
+section > div > p {
+    padding: 5px;
+    margin: 5px;
+}
+
+section > div > p > input.ano{
+    width: 80px;
+    font-size: 1em;
+}
+
+section > div > p > input#hidden{
+    margin: auto;
+}
+
+section > div > button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: 3px solid white;
+}
+
+section > div > button:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+footer {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;
+}
