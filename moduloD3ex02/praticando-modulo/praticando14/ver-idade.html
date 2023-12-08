@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ver-idade</title>
+    <link rel="stylesheet" href="ver-idade.css">
+</head>
+<body>
+    <header>
+        <h1>Jonhy Alberto</h1>
+        <p>Desenvolvedor Front-end</p>
+    </header>
+    <section>
+        <div>
+            <p>
+                <h2>Preencha os dados para ver a idade da pessoa</h2>
+                <label for="fano">Ano de nascimento: </label>
+                <input type="number" name="fano" id="fano" placeholder="1999">
+            </p>
+            <p>Sexo:</p>
+            <p>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="mas">
+            </p>
+            <p>
+                <label for="fem">Feminino</label>
+                <input type="radio" name="radsex" id="fem" checked>
+            </p>
+            <p>
+                <label for="out">Outro</label>
+                <input type="radio" name="radsex" id="out">
+                <input type="text" name="hidden" id="hidden">
+            </p>
+            <button>Verificar idade </button>
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>Criado e desenvolvido por Jonhy Alberto</p>
+    </footer>
+</body>
+<script src="main.js"></script>
+</html>
