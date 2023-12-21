@@ -12,7 +12,7 @@ function Verificar() {
         nas.style.border = '3px solid red'
     } else {
         let Gênero = ''
-        let idade = AnoAtual - Number(nas.value)
+        let idade = Number(nas.value) - anoAtual
         let img = document.createElement('img')
         img.setAttribute('id', 'foto')
         if (sexo[0].checked) {
