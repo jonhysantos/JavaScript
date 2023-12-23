@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver-idade</title>
+    <link rel="stylesheet" href="ver-dados.css">
+</head>
+<body>
+    <header>
+        <h1>Jonhy Alberto</h1>
+        <p>Desenvolvedor Front-end</p>
+    </header>
+    <section>
+        <div>
+            <h2>Preencha os campos abaixo para ver os dados exibido na tela</h2>
+            <p>
+                <label for="name">Nome:</label>
+                <input type="text" name="name" id="name" placeholder="Maria" autocomplete="name">
+            </p>
+            <p>
+                <label for="last-name">Sobrenome:</label>
+                <input type="text" name="last-name" id="last-name" placeholder="Souza" autocomplete="name">
+            </p>
+            <p>
+                <label for="e-mail">E-mail:</label>
+                <input type="email" name="e-mail" id="e-mail" autocomplete="email" placeholder="João@.com">
+            </p>
+            <p>
+                <label for="txtano">Nascimento</label>
+                <input type="number" name="txtano" id="txtano" placeholder="2005">
+            </p>
+            <p class="sex">Sexo:</p>
+            <p>
+                <label for="mas">Masculino</label>
+                <input type="radio" name="radsex" id="mas">
+            </p>
+            <p>
+                <label for="fem">Feminino</label>
+                <input type="radio" name="radsex" id="fem" checked>
+            </p>
+            <p>
+                <label for="out">Outro</label>
+                <input type="radio" name="radsex" id="out">
+                <input type="text" name="hidden" id="hidden">
+            </p>
+            <p>
+                <label for="msg">Deixe sua mensagem.</label>
+            </p>
+            <textarea name="msg" id="msg" cols="25" rows="8">
+
+            </textarea>
+            <br>
+            <button>Verificar Dados</button>
+        </div>
+        <div id="res">
+
+        </div>
+    </section>
+    <footer>
+        <p>Criado e desenvolvido por Jonhy Alberto</p>
+    </footer>
+</body>
+<script src="ver-dados.js"></script>
+</html>
